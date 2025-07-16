@@ -2,14 +2,32 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, ArrowRight, BookOpen } from 'lucide-react';
 import { useTranslation } from '../hooks/useTranslation';
 
+// const slides = [
+//   {
+//     image: 'https://drive.google.com/file/d/1soRF4ft6M4vz0669ijrdm22p5ELgEdV3/view?usp=drive_link',
+//     title: 'hero.title',
+//     subtitle: 'hero.subtitle'
+//   },
+//   {
+//     image: 'https://drive.google.com/file/d/1BJpqNDhOV0mtx14-o7Z0_ufdxp-kAEg6/view?usp=drive_link',
+//     title: 'hero.title',
+//     subtitle: 'hero.subtitle'
+//   },
+//   {
+//     image: 'https://images.pexels.com/photos/5212663/pexels-photo-5212663.jpeg?auto=compress&cs=tinysrgb&w=1200',
+//     title: 'hero.title',
+//     subtitle: 'hero.subtitle'
+//   }
+// ];
+
 const slides = [
   {
-    image: 'https://drive.google.com/file/d/1soRF4ft6M4vz0669ijrdm22p5ELgEdV3/view?usp=drive_link',
+    image: 'https://drive.google.com/uc?export=view&id=1soRF4ft6M4vz0669ijrdm22p5ELgEdV3',
     title: 'hero.title',
     subtitle: 'hero.subtitle'
   },
   {
-    image: 'https://drive.google.com/file/d/1BJpqNDhOV0mtx14-o7Z0_ufdxp-kAEg6/view?usp=drive_link',
+    image: 'https://drive.google.com/uc?export=view&id=1BJpqNDhOV0mtx14-o7Z0_ufdxp-kAEg6',
     title: 'hero.title',
     subtitle: 'hero.subtitle'
   },
@@ -19,6 +37,7 @@ const slides = [
     subtitle: 'hero.subtitle'
   }
 ];
+
 
 export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
