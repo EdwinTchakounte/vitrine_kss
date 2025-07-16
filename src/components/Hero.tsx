@@ -22,7 +22,7 @@ import { useTranslation } from '../hooks/useTranslation';
 
 const slides = [
   {
-    image: 'https://imgur.com/a/image1-A0oXSx3',
+    image: 'https://unsplash.com/photos/ysUtfQpgoSQ',
     title: 'hero.title',
     subtitle: 'hero.subtitle'
   },
